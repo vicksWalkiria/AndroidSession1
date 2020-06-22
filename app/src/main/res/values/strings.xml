@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tema1</string>
+    <string name="initial_text">Hola</string>
+    <string name="title_activity_2">Activity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
