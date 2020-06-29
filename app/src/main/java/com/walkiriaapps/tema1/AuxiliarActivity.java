@@ -46,6 +46,9 @@ public class AuxiliarActivity extends AppCompatActivity {
 
         button.setText("Clícame");
 
+        index = getIntent().getIntExtra("value", -1);
+        textLabel.setText(index+"");
+
         buttonExit = findViewById(R.id.button_exit);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

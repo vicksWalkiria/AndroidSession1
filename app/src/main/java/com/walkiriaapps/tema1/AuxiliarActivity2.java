@@ -40,8 +40,8 @@ public class AuxiliarActivity2 extends AppCompatActivity {
         Log.d("CURSO_ANDROID", "ESTOY EN ONCREATE");
         button = findViewById(R.id.button);
         textLabel = findViewById(R.id.label);
+        index = getIntent().getIntExtra("value", -1);
         textLabel.setText(index + "");
-
         button.setText("Clícame Auxiliar 2");
 
         buttonExit = findViewById(R.id.button_exit);
