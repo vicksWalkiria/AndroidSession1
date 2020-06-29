@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-feature android:name="android.hardware.type.watch" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +22,8 @@
         </activity>
 
         <activity android:name=".AuxiliarActivity"/>
+
+        <activity android:name=".AuxiliarActivity2"/>
     </application>
 
 </manifest>

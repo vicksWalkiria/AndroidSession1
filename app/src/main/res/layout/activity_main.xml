@@ -33,4 +33,15 @@
         android:text="@string/app_name"
         android:textColor="@color/colorPrimaryDark"
         />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/button"
+        android:text="Button 2"/>
 </RelativeLayout>
